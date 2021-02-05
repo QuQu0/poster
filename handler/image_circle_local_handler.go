@@ -14,8 +14,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/hitailang/poster/circlemask"
-	"github.com/hitailang/poster/core"
+	"github.com/QuQu0/poster/circlemask"
+	"github.com/QuQu0/poster/core"
 )
 
 // ImageCircleLocalHandler 根据Path路径设置圆形图片

@@ -10,8 +10,9 @@ package handler
 
 import (
 	"fmt"
-	"github.com/hitailang/poster/core"
 	"image"
+
+	"github.com/QuQu0/poster/core"
 )
 
 // ImageRemoteHandler 根据URL地址设置图片

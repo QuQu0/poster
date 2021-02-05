@@ -10,10 +10,11 @@ package handler
 
 import (
 	"fmt"
-	"github.com/hitailang/poster/core"
 	"image"
 	"image/png"
 	"os"
+
+	"github.com/QuQu0/poster/core"
 )
 
 // ImageLocalHandler 根据本地PATH设置图片

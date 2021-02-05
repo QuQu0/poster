@@ -10,9 +10,10 @@ package handler
 
 import (
 	"fmt"
-	"github.com/hitailang/poster/core"
-	"github.com/skip2/go-qrcode"
 	"image"
+
+	"github.com/QuQu0/poster/core"
+	"github.com/skip2/go-qrcode"
 )
 
 // BackgroundHandler

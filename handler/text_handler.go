@@ -10,7 +10,8 @@ package handler
 
 import (
 	"fmt"
-	"github.com/hitailang/poster/core"
+
+	"github.com/QuQu0/poster/core"
 )
 
 // TextHandler

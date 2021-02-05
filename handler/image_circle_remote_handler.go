@@ -10,9 +10,10 @@ package handler
 
 import (
 	"fmt"
-	"github.com/hitailang/poster/circlemask"
-	"github.com/hitailang/poster/core"
 	"image"
+
+	"github.com/QuQu0/poster/circlemask"
+	"github.com/QuQu0/poster/core"
 )
 
 // ImageCircleRemoteHandler 根据URL地址设置圆形图片

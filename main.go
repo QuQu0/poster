@@ -10,10 +10,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/hitailang/poster/core"
-	"github.com/hitailang/poster/handler"
-	"github.com/rs/xid"
 
+	"github.com/QuQu0/poster/core"
+	"github.com/QuQu0/poster/handler"
+	"github.com/rs/xid"
 )
 
 // 海报组件使用示例
@@ -48,7 +48,7 @@ func main() {
 	qrCodeHandler := &handler.QRCodeHandler{
 		X:   30,
 		Y:   860,
-		URL: "https://github.com/hitailang/poster",
+		URL: "https://github.com/QuQu0/poster",
 	}
 	//绘制文字
 	textHandler1 := &handler.TextHandler{

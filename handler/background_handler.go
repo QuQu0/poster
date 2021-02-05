@@ -9,14 +9,13 @@
 package handler
 
 import (
-    "fmt"
-    "github.com/hitailang/poster/core"
-    "image"
-    "image/png"
-    "os"
+	"fmt"
+	"image"
+	"image/png"
+	"os"
+
+	"github.com/QuQu0/poster/core"
 )
-
-
 
 // BackgroundHandler
 type BackgroundHandler struct {

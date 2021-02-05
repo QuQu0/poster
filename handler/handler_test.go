@@ -10,9 +10,10 @@ package handler
 
 import (
 	"fmt"
-	"github.com/hitailang/poster/core"
-	"github.com/rs/xid"
 	"testing"
+
+	"github.com/QuQu0/poster/core"
+	"github.com/rs/xid"
 )
 
 func TestNext_SetNext(t *testing.T) {
@@ -44,7 +45,7 @@ func TestNext_SetNext(t *testing.T) {
 	qrCodeHandler := &QRCodeHandler{
 		X:   30,
 		Y:   860,
-		URL: "https://github.com/hitailang/poster",
+		URL: "https://github.com/QuQu0/poster",
 	}
 	//绘制文字
 	textHandler1 := &TextHandler{
