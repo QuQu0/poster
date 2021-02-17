@@ -34,6 +34,7 @@ func (h *ImageCircleLocalHandler) Do(c *Context) (err error) {
 	var srcImage image.Image
 
 	if h.Path != "" {
+
 		imageFile, err := os.Open(h.Path)
 		if err != nil {
 			fmt.Errorf("os.Open err：%v", err)
